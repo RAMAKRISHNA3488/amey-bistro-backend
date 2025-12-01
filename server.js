@@ -70,7 +70,7 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
     console.log(`✨ Amay Bistro Server running on port ${PORT}`);
     console.log(`🌐 Environment: ${process.env.NODE_ENV}`);
-    console.log(`📍 API Base URL: http://localhost:${PORT}`);
+    console.log(`📍 API Base URL: https://amey-bistro-frontend.vercel.app`);
 });
 
 export default app;
